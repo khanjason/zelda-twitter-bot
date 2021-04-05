@@ -26,4 +26,5 @@ if __name__ == '__main__':
     
         if dt.hour==12 and dt.minute==0 and dt.second==0:
             publictweet()
+            time.sleep(10)
         
